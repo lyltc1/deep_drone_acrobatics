@@ -57,6 +57,7 @@ git clone https://github.com/uzh-rpg/deep_drone_acrobatics.git
 cd deep_drone_acrobatics
 git checkout release
 cd ..
+sudo pip install vcstool
 vcs-import < deep_drone_acrobatics/dependencies.yaml
 
 #install extra dependencies (might need more depending on your OS)

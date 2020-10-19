@@ -40,6 +40,7 @@ Different OS and ROS versions are possible but not supported.
 Use the following commands to create a new catkin workspace and a virtual environment with all the required dependencies.
 
 ```bash
+sudo apt install  python-catkin-tools 
 export ROS_VERSION=melodic
 mkdir drone_acrobatics_ws
 cd drone_acrobatics_ws

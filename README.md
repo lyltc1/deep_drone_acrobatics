@@ -72,7 +72,7 @@ If This is not the case, then check out [this guide](https://github.com/linux-on
 
 ```bash
 # Build and re-source the workspace
-catkin build
+sudo catkin build
 . ../devel/setup.bash
 
 # Create your learning environment
